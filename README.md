@@ -1,0 +1,1 @@
+Interactive Tableau dashboard analyzing educational institutions in Envigado, Colombia. Built with open data from datos.gov.co (Alcaldía de Envigado). Includes 6 visualizations covering enrollment, gender distribution, school type, and geographic zone.
