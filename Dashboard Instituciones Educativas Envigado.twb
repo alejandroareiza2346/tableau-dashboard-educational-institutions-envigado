@@ -1,0 +1,1114 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0427.1803                               -->
+<workbook original-version='18.1' source-build='2020.1.3 (20201.20.0427.1803)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Instituciones_Educativas_Municipio_de_Envigado_20260318' inline='true' name='federated.1hlaybo1r4wudb121undh1ds2d1z' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Instituciones_Educativas_Municipio_de_Envigado_20260318' name='textscan.00r8mpn03mq13e18t093i049p69t'>
+            <connection class='textscan' directory='C:/Users/Alejo/Downloads' filename='Instituciones_Educativas_Municipio_de_Envigado_20260318.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.00r8mpn03mq13e18t093i049p69t' name='Instituciones_Educativas_Municipio_de_Envigado_20260318.csv' table='[Instituciones_Educativas_Municipio_de_Envigado_20260318#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='#' ordinal='0' />
+            <column datatype='integer' name='CÓDIGO DANE' ordinal='1' />
+            <column datatype='string' name='NOMBRE IE' ordinal='2' />
+            <column datatype='string' name='TIPO IE' ordinal='3' />
+            <column datatype='string' name='NIVEL DE ESCOLARIDAD - PRESCOLAR' ordinal='4' />
+            <column datatype='string' name='NIVEL DE ESCOLARIDAD - PRIMARIA' ordinal='5' />
+            <column datatype='string' name='NIVEL DE ESCOLARIDAD - BÁSICA' ordinal='6' />
+            <column datatype='string' name='NIVEL DE ESCOLARIDAD - MEDIA' ordinal='7' />
+            <column datatype='string' name='NIVEL DE ESCOLARIDAD - SUPERIOR' ordinal='8' />
+            <column datatype='string' name='NIVEL DE ESCOLARIDAD - TRABAJO Y DESARROLLO HUMANO' ordinal='9' />
+            <column datatype='string' name='CALENDARIO ESCOLAR' ordinal='10' />
+            <column datatype='string' name='TIPO DE SEDE' ordinal='11' />
+            <column datatype='string' name='DIRECCIÓN' ordinal='12' />
+            <column datatype='integer' name='TELÉFONO' ordinal='13' />
+            <column datatype='string' name='ZONA' ordinal='14' />
+            <column datatype='string' name='RECTOR' ordinal='15' />
+            <column datatype='string' name='NIT' ordinal='16' />
+            <column datatype='string' name='CORREO ELECTRÓNICO' ordinal='17' />
+            <column datatype='string' name='COORDENADAS' ordinal='18' />
+            <column datatype='integer' name='TOTAL ESTUDIANTES' ordinal='19' />
+            <column datatype='integer' name='TOTAL MUJERES' ordinal='20' />
+            <column datatype='integer' name='TOTAL HOMBRES' ordinal='21' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>#</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[#]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>#</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CÓDIGO DANE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CÓDIGO DANE]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>CÓDIGO DANE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOMBRE IE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NOMBRE IE]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>NOMBRE IE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIPO IE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TIPO IE]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>TIPO IE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NIVEL DE ESCOLARIDAD - PRESCOLAR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NIVEL DE ESCOLARIDAD - PRESCOLAR]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>NIVEL DE ESCOLARIDAD - PRESCOLAR</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NIVEL DE ESCOLARIDAD - PRIMARIA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NIVEL DE ESCOLARIDAD - PRIMARIA]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>NIVEL DE ESCOLARIDAD - PRIMARIA</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NIVEL DE ESCOLARIDAD - BÁSICA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NIVEL DE ESCOLARIDAD - BÁSICA]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>NIVEL DE ESCOLARIDAD - BÁSICA</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NIVEL DE ESCOLARIDAD - MEDIA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NIVEL DE ESCOLARIDAD - MEDIA]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>NIVEL DE ESCOLARIDAD - MEDIA</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NIVEL DE ESCOLARIDAD - SUPERIOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NIVEL DE ESCOLARIDAD - SUPERIOR]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>NIVEL DE ESCOLARIDAD - SUPERIOR</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NIVEL DE ESCOLARIDAD - TRABAJO Y DESARROLLO HUMANO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NIVEL DE ESCOLARIDAD - TRABAJO Y DESARROLLO HUMANO]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>NIVEL DE ESCOLARIDAD - TRABAJO Y DESARROLLO HUMANO</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CALENDARIO ESCOLAR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CALENDARIO ESCOLAR]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>CALENDARIO ESCOLAR</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIPO DE SEDE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TIPO DE SEDE]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>TIPO DE SEDE</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DIRECCIÓN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DIRECCIÓN]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>DIRECCIÓN</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TELÉFONO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TELÉFONO]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>TELÉFONO</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZONA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ZONA]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>ZONA</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RECTOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RECTOR]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>RECTOR</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NIT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NIT]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>NIT</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CORREO ELECTRÓNICO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CORREO ELECTRÓNICO]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>CORREO ELECTRÓNICO</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COORDENADAS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COORDENADAS]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>COORDENADAS</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL ESTUDIANTES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL ESTUDIANTES]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>TOTAL ESTUDIANTES</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL MUJERES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL MUJERES]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>TOTAL MUJERES</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL HOMBRES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TOTAL HOMBRES]</local-name>
+            <parent-name>[Instituciones_Educativas_Municipio_de_Envigado_20260318.csv]</parent-name>
+            <remote-alias>TOTAL HOMBRES</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calendario Escolar' datatype='string' name='[CALENDARIO ESCOLAR]' role='dimension' type='nominal' />
+      <column caption='Coordenadas' datatype='string' name='[COORDENADAS]' role='dimension' type='nominal' />
+      <column caption='Correo Electrónico' datatype='string' name='[CORREO ELECTRÓNICO]' role='dimension' type='nominal' />
+      <column caption='Código Dane' datatype='integer' name='[CÓDIGO DANE]' role='measure' type='quantitative' />
+      <column caption='Dirección' datatype='string' name='[DIRECCIÓN]' role='dimension' type='nominal' />
+      <column caption='Nivel De Escolaridad - Básica' datatype='string' name='[NIVEL DE ESCOLARIDAD - BÁSICA]' role='dimension' type='nominal' />
+      <column caption='Nivel De Escolaridad - Media' datatype='string' name='[NIVEL DE ESCOLARIDAD - MEDIA]' role='dimension' type='nominal' />
+      <column caption='Nivel De Escolaridad - Prescolar' datatype='string' name='[NIVEL DE ESCOLARIDAD - PRESCOLAR]' role='dimension' type='nominal' />
+      <column caption='Nivel De Escolaridad - Primaria' datatype='string' name='[NIVEL DE ESCOLARIDAD - PRIMARIA]' role='dimension' type='nominal' />
+      <column caption='Nivel De Escolaridad - Superior' datatype='string' name='[NIVEL DE ESCOLARIDAD - SUPERIOR]' role='dimension' type='nominal' />
+      <column caption='Nivel De Escolaridad - Trabajo Y Desarrollo Humano' datatype='string' name='[NIVEL DE ESCOLARIDAD - TRABAJO Y DESARROLLO HUMANO]' role='dimension' type='nominal' />
+      <column caption='Nombre Ie' datatype='string' name='[NOMBRE IE]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Rector' datatype='string' name='[RECTOR]' role='dimension' type='nominal' />
+      <column caption='Teléfono' datatype='integer' name='[TELÉFONO]' role='measure' type='quantitative' />
+      <column caption='Tipo De Sede' datatype='string' name='[TIPO DE SEDE]' role='dimension' type='nominal' />
+      <column caption='Tipo Ie' datatype='string' name='[TIPO IE]' role='dimension' type='nominal' />
+      <column caption='Total Estudiantes' datatype='integer' name='[TOTAL ESTUDIANTES]' role='measure' type='quantitative' />
+      <column caption='Total Hombres' datatype='integer' name='[TOTAL HOMBRES]' role='measure' type='quantitative' />
+      <column caption='Total Mujeres' datatype='integer' name='[TOTAL MUJERES]' role='measure' type='quantitative' />
+      <column caption='Zona' datatype='string' name='[ZONA]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.553957' measure-ordering='alphabetic' measure-percentage='0.446043' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Colombia&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Hoja 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+            <run bold='false' fontcolor='#000000' fontsize='15' italic='false' underline='false'>Instituciones por Tipo de Sede&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Instituciones_Educativas_Municipio_de_Envigado_20260318' name='federated.1hlaybo1r4wudb121undh1ds2d1z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hlaybo1r4wudb121undh1ds2d1z'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='Tipo De Sede' datatype='string' name='[TIPO DE SEDE]' role='dimension' type='nominal' />
+            <column-instance column='[TIPO DE SEDE]' derivation='None' name='[none:TIPO DE SEDE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1hlaybo1r4wudb121undh1ds2d1z].[sum:Number of Records:qk]</rows>
+        <cols>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:TIPO DE SEDE:nk]</cols>
+      </table>
+      <simple-id uuid='{F4FC776D-D911-4FF9-8B6D-741C6A7D7883}' />
+    </worksheet>
+    <worksheet name='Hoja 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+            <run bold='false' fontcolor='#000000' fontsize='15' italic='false' underline='false'>Instituciones por Calendario&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Instituciones_Educativas_Municipio_de_Envigado_20260318' name='federated.1hlaybo1r4wudb121undh1ds2d1z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hlaybo1r4wudb121undh1ds2d1z'>
+            <column caption='Calendario Escolar' datatype='string' name='[CALENDARIO ESCOLAR]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[CALENDARIO ESCOLAR]' derivation='None' name='[none:CALENDARIO ESCOLAR:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:CALENDARIO ESCOLAR:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1hlaybo1r4wudb121undh1ds2d1z].[sum:Number of Records:qk]</rows>
+        <cols>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:CALENDARIO ESCOLAR:nk]</cols>
+      </table>
+      <simple-id uuid='{DBDFC142-09FD-4931-ABA4-045637F0684B}' />
+    </worksheet>
+    <worksheet name='Hoja 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+            <run bold='false' fontcolor='#000000' fontsize='15' italic='false' underline='false'>Estudiantes por Zona&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Instituciones_Educativas_Municipio_de_Envigado_20260318' name='federated.1hlaybo1r4wudb121undh1ds2d1z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hlaybo1r4wudb121undh1ds2d1z'>
+            <column caption='Total Estudiantes' datatype='integer' name='[TOTAL ESTUDIANTES]' role='measure' type='quantitative' />
+            <column caption='Zona' datatype='string' name='[ZONA]' role='dimension' type='nominal' />
+            <column-instance column='[ZONA]' derivation='None' name='[none:ZONA:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TOTAL ESTUDIANTES]' derivation='Sum' name='[sum:TOTAL ESTUDIANTES:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1hlaybo1r4wudb121undh1ds2d1z].[sum:TOTAL ESTUDIANTES:qk]</rows>
+        <cols>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:ZONA:nk]</cols>
+      </table>
+      <simple-id uuid='{F388E0AA-AF32-4CA3-97FE-3784CA69BFF1}' />
+    </worksheet>
+    <worksheet name='Hoja 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Hombres vs Mujeres</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Instituciones_Educativas_Municipio_de_Envigado_20260318' name='federated.1hlaybo1r4wudb121undh1ds2d1z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hlaybo1r4wudb121undh1ds2d1z'>
+            <column caption='Tipo De Sede' datatype='string' name='[TIPO DE SEDE]' role='dimension' type='nominal' />
+            <column caption='Total Hombres' datatype='integer' name='[TOTAL HOMBRES]' role='measure' type='quantitative' />
+            <column caption='Total Mujeres' datatype='integer' name='[TOTAL MUJERES]' role='measure' type='quantitative' />
+            <column-instance column='[TIPO DE SEDE]' derivation='None' name='[none:TIPO DE SEDE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TOTAL HOMBRES]' derivation='Sum' name='[sum:TOTAL HOMBRES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TOTAL MUJERES]' derivation='Sum' name='[sum:TOTAL MUJERES:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1hlaybo1r4wudb121undh1ds2d1z].[sum:TOTAL HOMBRES:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1hlaybo1r4wudb121undh1ds2d1z].[sum:TOTAL MUJERES:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>([federated.1hlaybo1r4wudb121undh1ds2d1z].[sum:TOTAL HOMBRES:qk] + [federated.1hlaybo1r4wudb121undh1ds2d1z].[sum:TOTAL MUJERES:qk])</rows>
+        <cols>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:TIPO DE SEDE:nk]</cols>
+      </table>
+      <simple-id uuid='{0E09C235-B953-4571-93CE-B491EA8F5394}' />
+    </worksheet>
+    <worksheet name='Hoja 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+            <run bold='false' fontcolor='#000000' fontsize='15' italic='false' underline='false'>Top Instituciones&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Instituciones_Educativas_Municipio_de_Envigado_20260318' name='federated.1hlaybo1r4wudb121undh1ds2d1z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hlaybo1r4wudb121undh1ds2d1z'>
+            <column caption='Nombre Ie' datatype='string' name='[NOMBRE IE]' role='dimension' type='nominal' />
+            <column caption='Total Estudiantes' datatype='integer' name='[TOTAL ESTUDIANTES]' role='measure' type='quantitative' />
+            <column-instance column='[NOMBRE IE]' derivation='None' name='[none:NOMBRE IE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TOTAL ESTUDIANTES]' derivation='Sum' name='[sum:TOTAL ESTUDIANTES:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:NOMBRE IE:nk]</rows>
+        <cols>[federated.1hlaybo1r4wudb121undh1ds2d1z].[sum:TOTAL ESTUDIANTES:qk]</cols>
+      </table>
+      <simple-id uuid='{1650D1E1-115F-40B5-B5C0-0818D7626DE2}' />
+    </worksheet>
+    <worksheet name='Hoja 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+            <run bold='false' fontcolor='#000000' fontsize='15' italic='false' underline='false'>Distribución por Tipo IE&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Instituciones_Educativas_Municipio_de_Envigado_20260318' name='federated.1hlaybo1r4wudb121undh1ds2d1z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hlaybo1r4wudb121undh1ds2d1z'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='Tipo Ie' datatype='string' name='[TIPO IE]' role='dimension' type='nominal' />
+            <column-instance column='[TIPO IE]' derivation='None' name='[none:TIPO IE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:TIPO IE:nk]' />
+              <wedge-size column='[federated.1hlaybo1r4wudb121undh1ds2d1z].[sum:Number of Records:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F6772E8D-BA86-4C4C-BB2C-0E9C11F8E50F}' />
+    </worksheet>
+    <worksheet name='Hoja 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Æ&#10;</run>
+            <run bold='false' fontcolor='#000000' fontsize='15' italic='false' underline='false'>KPI Total Estudiantes&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Instituciones_Educativas_Municipio_de_Envigado_20260318' name='federated.1hlaybo1r4wudb121undh1ds2d1z' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hlaybo1r4wudb121undh1ds2d1z'>
+            <column caption='Total Estudiantes' datatype='integer' name='[TOTAL ESTUDIANTES]' role='measure' type='quantitative' />
+            <column-instance column='[TOTAL ESTUDIANTES]' derivation='Sum' name='[sum:TOTAL ESTUDIANTES:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+          </pane>
+        </panes>
+        <rows>[federated.1hlaybo1r4wudb121undh1ds2d1z].[sum:TOTAL ESTUDIANTES:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{92DA1F9D-5E50-4AFE-AD59-7473E3F5F1A1}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Hoja 6' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='8250' id='8' name='Hoja 6' pane-specification-id='0' param='[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:TIPO IE:nk]' type='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='9' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Hoja 6' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8250' id='8' name='Hoja 6' pane-specification-id='0' param='[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:TIPO IE:nk]' type='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{18B8394F-C251-4D1C-9003-DDBAE59ACB19}' />
+    </dashboard>
+    <dashboard name='Historia 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type='layout-flow' w='98426' x='787' y='830'>
+            <zone h='3423' id='3' type='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type='flipboard-nav' w='98426' x='787' y='4253' />
+            <zone h='84440' id='5' paired-zone-id='4' removable='false' type='flipboard' w='98426' x='787' y='14730'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='Hoja 2' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{D070FFCE-3407-4627-AF78-8820E7A5B7A2}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Hoja 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:TIPO DE SEDE:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9200A9E6-CB60-47DC-A544-2594160267B1}' />
+    </window>
+    <window class='worksheet' name='Hoja 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:CALENDARIO ESCOLAR:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:CALENDARIO ESCOLAR:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{230A436A-9756-4C88-A243-BAC0BDBC7C25}' />
+    </window>
+    <window class='worksheet' name='Hoja 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:ZONA:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E814E736-03DD-44DC-8B15-3062D9CD838B}' />
+    </window>
+    <window class='worksheet' name='Hoja 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:TIPO DE SEDE:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BB5A14D0-AAEB-48FA-8FCD-C82A6D21E554}' />
+    </window>
+    <window class='worksheet' name='Hoja 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:NOMBRE IE:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3F7C6FCA-34E6-4782-ABCA-1D8C87A8EC60}' />
+    </window>
+    <window class='worksheet' name='Hoja 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:TIPO IE:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:TIPO IE:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{650B9897-6239-4781-92D1-A9E9E7A1D407}' />
+    </window>
+    <window class='worksheet' name='Hoja 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F16B813B-E955-4253-8BCF-7B51A1278111}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Hoja 6'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1hlaybo1r4wudb121undh1ds2d1z].[none:TIPO IE:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{CB3D33D4-D224-464B-951B-30C6DC7EC98A}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Historia 1'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{EEEFAD48-21DA-41CA-ABE6-DB742276F6CD}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Historia 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
